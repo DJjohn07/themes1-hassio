@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fluvy",
+        "description": "Nainstaluje motiv Fluvy, jeho karty a panel nastavení. Není potřeba nic nastavovat."
+      }
+    },
+    "abort": {
+      "already_configured": "Fluvy je už nastaven.",
+      "single_instance_allowed": "Fluvy je už nastaven."
+    }
+  },
+  "exceptions": {
+    "frontend_missing": {
+      "message": "Soubory uživatelského rozhraní Fluvy chybí v custom_components/fluvy/frontend. Přeinstalujte Fluvy přes HACS (nebo ve vývojářské kopii spusťte `pnpm build`) a poté restartujte Home Assistant."
+    }
+  },
+  "issues": {
+    "legacy_yaml": {
+      "title": "Odstraňte staré řádky Fluvy ze souboru configuration.yaml",
+      "description": "Fluvy je nyní integrace, která si panel i modul registruje sama. Odstraňte tyto řádky z configuration.yaml (řádek `frontend: themes: !include_dir_merge_named themes` ponechte), zkontrolujte konfiguraci a ve vhodnou chvíli restartujte Home Assistant:\n\n{lines}"
+    },
+    "theme_not_loaded": {
+      "title": "Motiv Fluvy není načten",
+      "description": "Fluvy zapsal motiv do `{path}`, ale Home Assistant motiv s názvem Fluvy neuvádí. Přidejte do configuration.yaml následující nastavení a spusťte akci `frontend.reload_themes` (Nástroje pro vývojáře → Akce); restart není potřeba:\n\n{yaml}\n\nPokud už tam řádky jsou, podívejte se v Nastavení → Systém → Protokoly, zda se motiv nenačetl s chybou."
+    },
+    "resources_yaml_mode": {
+      "title": "Přidejte zdroj dashboardu Fluvy",
+      "description": "Zdroje dashboardů spravujete v YAML, Fluvy si proto vlastní zdroj nemůže zaregistrovat sám. Přidejte do configuration.yaml pod `lovelace: resources:` tyto řádky a obnovte prohlížeč:\n\n```yaml\n  - url: {url}\n    type: module\n```\n\nFluvy se načítá na každé stránce; tento zdroj umožní dashboardům načíst jej ještě před vykreslením."
+    }
+  }
+}

@@ -22,6 +22,7 @@ language, so the card starts from Fluvy's.
 | `ja` | Japanese | `packages/core/src/i18n/locales/ja.json` | [@vinjex](https://github.com/vinjex) |
 | `hu` | Hungarian | `packages/core/src/i18n/locales/hu.json` | [@wickdj](https://github.com/wickdj) |
 | `sk` | Slovak | `packages/core/src/i18n/locales/sk.json` | — |
+| `cs` | Czech | `packages/core/src/i18n/locales/cs.json` | — |
 | `pl` | Polish | `packages/core/src/i18n/locales/pl.json` | [@paproh](https://github.com/paproh) |
 | `zh-Hans` | Chinese (Simplified) | `packages/core/src/i18n/locales/zh-Hans.json` — `zh`, `zh-CN` and `zh-SG` read it; Traditional Chinese (`zh-Hant`, `zh-TW`, `zh-HK`) is not it | — |
 | `ru` | Russian | `packages/core/src/i18n/locales/ru.json` | — |

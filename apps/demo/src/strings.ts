@@ -424,6 +424,41 @@ const sk: Table = {
     'Automatický dashboard sa vytvára v Home Assistante; záložka Dashboardy zobrazuje jeho náhľad',
 };
 
+const cs: Table = {
+  'brand.sub': 'Živé demo',
+  'family.home': 'Domů',
+  'family.devices': 'Zařízení',
+  'family.climate': 'Vytápění a chlazení',
+  'family.energy': 'Energie',
+  'family.charts': 'Grafy',
+  'family.media': 'Média',
+  'family.time': 'Čas',
+  'family.helpers': 'Pomocníci',
+  'family.vehicles': 'Auta',
+  'page.panel': 'Nastavení',
+  'page.activity': 'Aktivita',
+  'page.history': 'Historie',
+  'mode.light': 'Světlý',
+  'mode.dark': 'Tmavý',
+  'device.title': 'Zařízení',
+  'device.phone': 'Telefon',
+  'device.phone-l': 'Velký telefon',
+  'device.tablet': 'Tablet',
+  'device.desktop': 'Počítač',
+  'palette.title': 'Paleta',
+  'palette.custom': 'Vlastní zvýrazňující barva v panelu nastavení',
+  'language.title': 'Jazyk',
+  'links.install': 'Nainstalovat',
+  'links.github': 'GitHub',
+  'banner.text':
+    'Simulovaná domácnost: Martin byt ve čtvrtek večer. Každá karta, stránka i nastavení jsou skutečné; Home Assistant zde nahrazuje jednoduchá simulace, která změní stav 140 ms po zavolání akce. Nic není připojeno.',
+  'banner.ok': 'Rozumím',
+  'notice.more_info': 'Otevře podrobnosti entity {entity} v Home Assistantovi',
+  'notice.navigate': 'Otevře {path} v Home Assistantovi',
+  'notice.auto':
+    'Automatický dashboard se vytváří přímo v Home Assistantovi; záložka Dashboardy zobrazuje jeho náhled',
+};
+
 const pl: Table = {
   'brand.sub': 'Demo na żywo',
   'family.home': 'Dom',
@@ -576,6 +611,7 @@ const TABLES: Readonly<Record<LanguageCode, Table>> = {
   ja,
   hu,
   sk,
+  cs,
   pl,
   'zh-Hans': zhHans,
   ru,
