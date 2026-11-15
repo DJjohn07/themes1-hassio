@@ -1,0 +1,2 @@
+/*! Fluvy v1.21.0 · a theme and card library for Home Assistant · SPDX-License-Identifier: GPL-3.0-only · https://github.com/acosta290/fluvy */
+var e=Object.defineProperty,r=(r,t)=>{let a={};for(var o in r)e(a,o,{get:r[o],enumerable:!0});return t||e(a,Symbol.toStringTag,{value:"Module"}),a};export{r as t};
